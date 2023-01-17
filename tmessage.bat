@@ -1,6 +1,6 @@
 @echo off
 
-set C:\Scripts\wBase\baseENV.bat
+call C:\Scripts\wBase\baseENV.bat
 @REM xxxxxxx
 
 
