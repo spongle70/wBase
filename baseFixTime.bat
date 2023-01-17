@@ -1,7 +1,7 @@
 @echo off
-
-set C:\Scripts\wBase\baseENV.bat
+call C:\Scripts\wBase\baseENV.bat
 @REM xxxxxxx
+echo "%~n0: Start"
 
 echo "base_Logon: FIXTIME"
 

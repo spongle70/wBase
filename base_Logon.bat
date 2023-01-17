@@ -1,11 +1,9 @@
 @echo off
-
-set C:\Scripts\wBase\baseENV.bat
+call C:\Scripts\wBase\baseENV.bat
 @REM xxxxxxx
+echo "%~n0: Start"
 
 set LOCAL_LOGON=%LOCAL%\local_Logon.bat
-
-echo "base_Logon: Started"
 
 FOR %%x IN (%BASE%\b_*.bat) DO (
     echo "%%x"
