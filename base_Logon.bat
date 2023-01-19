@@ -10,8 +10,8 @@ FOR %%x IN (%BASE%\b_*.bat) DO (
     call "%%x"
 )
 
-if exist "%LOCAL_LOGON%" (
-    echo "Starting LOCALISED logon %LOCAL_LOGON%"
+if exist %LOCAL_LOGON% (
+    echo "Starting LOCALISED logon %LOCAL_LOGON% "
     call %LOCAL_LOGON%
 )
 
