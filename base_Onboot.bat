@@ -13,7 +13,7 @@ call %TMESSAGE% '"%check_computername% Onboot starting "'
 
 
 echo "Fixing time...."
-call %BASE%baseFixTime.bat
+call %BASE%\baseFixTime.bat
 
 call %TMESSAGE% '"...STARTED base %check_computername% "'
 
