@@ -1,2 +1,0 @@
-set DUFUS=
-set TCHATID=

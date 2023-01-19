@@ -1,2 +1,3 @@
-set DUFUS=
+set DUFUSLOW=
+set DUFUSHIGH=
 set TCHATID=
