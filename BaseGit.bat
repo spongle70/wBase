@@ -11,6 +11,10 @@ mkdir %SCRIPTS%
 
 
 if exist %GIT% (
+   %GIT% -c "git config --global --add safe.directory C:/Scripts/wBase"
+   %GIT% -c "git config --global --add safe.directory C:/Scripts/wLocal"
+
+
    echo "Found git. Attempting pull"
    cd %SCRIPTS%\wBase
    %GIT% -c "git pull"
