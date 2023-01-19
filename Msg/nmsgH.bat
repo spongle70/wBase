@@ -1,5 +1,5 @@
 @echo off
-set SECRETS="%BASE%\secrets\nenvH.bat"
+set SECRETS="C:\Scripts\bSecrets\nenv.bat"
 call %SECRETS%
 
 set MSG=bungler dungler
