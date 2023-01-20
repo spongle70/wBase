@@ -15,5 +15,4 @@ if exist %LOCAL_LOGON% (
     call %LOCAL_LOGON%
 )
 
-echo "base_Logon: Finished"
-
+echo "%~n0: Finished"
