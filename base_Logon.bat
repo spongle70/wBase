@@ -10,6 +10,11 @@ FOR %%x IN (%BASE%\b_*.bat) DO (
     call "%%x"
 )
 
+FOR %%x IN (C:\Scripts\bSecrets\b_*.bat) DO (
+    echo "%%x"
+    call "%%x"
+)
+
 if exist %LOCAL_LOGON% (
     echo "Starting LOCALISED logon %LOCAL_LOGON% "
     call %LOCAL_LOGON%
