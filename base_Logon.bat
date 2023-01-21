@@ -1,7 +1,7 @@
 @echo off
 call C:\Scripts\wBase\baseENV.bat
 @REM xxxxxxx
-echo "%~n0: Start"
+echo "START: %~n0"
 
 set LOCAL_LOGON=%LOCAL%\local_Logon.bat
 
@@ -20,4 +20,4 @@ if exist %LOCAL_LOGON% (
     call %LOCAL_LOGON%
 )
 
-echo "%~n0: Finished"
+echo "FINISHED: %~n0"
