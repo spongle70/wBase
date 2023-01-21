@@ -22,5 +22,4 @@ if exist %GIT% (
    cd %SCRIPTS%\wLocal
    %GIT% -c "git pull"
 
-   cd \
-)
+   )
