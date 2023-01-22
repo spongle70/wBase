@@ -5,8 +5,8 @@ echo "START: %~n0"
 
 set LOCAL_LOGON=%LOCAL%\local_Logon.bat
 
-del C:\Scripts\bSecrets\b_Syncthing
-del C:\Scripts\lSecrets\l_Syncthing
+del C:\Scripts\bSecrets\b_Syncthing.bat
+del C:\Scripts\lSecrets\l_Syncthing.bat
 
 call C:\Scripts\wBase\BaseGit.bat
 
