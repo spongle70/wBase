@@ -1,4 +1,4 @@
-@echo on
+@echo off
 set check_computername=%COMPUTERNAME%
 echo "Found computer %check_computername%"
 
