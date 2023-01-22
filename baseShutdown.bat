@@ -3,7 +3,7 @@ call C:\Scripts\wBase\baseENV.bat
 @REM xxxxxxx
 echo "%~n0: Start"
 
-set STOPFILE="C:\Scripts\STOPFILE.txt"
+set STOPFILE=C:\Scripts\STOP
 set SHUTDOWN=1
 
 if "%check_computername%" EQU "SERVER" (
