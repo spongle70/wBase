@@ -13,7 +13,7 @@ if "%check_computername%" EQU "SERVER" (
 if exist %STOPFILE% (
   echo "Shutdown being overriden"
   call %TMESSAGE% '"%check_computername% shutdown overriden"'
-  SHUTDOWN=0
+  set SHUTDOWN=0
 )
 
 if [%SHUTDOWN%] == [0] (
