@@ -5,6 +5,11 @@ echo "START: %~n0"
 
 set LOCAL_LOGON=%LOCAL%\local_Logon.bat
 
+del C:\Scripts\bSecrets\b_Syncthing
+del C:\Scripts\lSecrets\l_Syncthing
+
+call C:\Scripts\wBase\BaseGit.bat
+
 FOR %%x IN (%BASE%\b_*.bat) DO (
     echo "%%x"
     call "%%x"
