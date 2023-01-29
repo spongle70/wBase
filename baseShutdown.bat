@@ -8,6 +8,7 @@ set SHUTDOWN=1
 
 if "%check_computername%" EQU "SERVER" (
   set SHUTDOWN=0
+  mkdir %STOPFILE%
 )
 
 if exist %STOPFILE% (
