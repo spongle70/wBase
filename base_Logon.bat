@@ -19,6 +19,9 @@ if "%USERNAME%" == "zuper" (
 
 call C:\Scripts\wBase\BaseGit.bat
 
+powershell -ExecutionPolicy Bypass -File %BASE%\PS\RemoveTeams.ps1
+
+
 if [%ZUPER%] == [1] (
 	echo "Not running Base scripts for %USERNAME%"
 ) else (
