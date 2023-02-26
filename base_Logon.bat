@@ -17,6 +17,7 @@ if "%USERNAME%" == "zuper" (
     )
 
 
+call C:\Scripts\wBase\BaseGit.bat
 
 if [%ZUPER%] == [1] (
 	echo "Not running Base scripts for %USERNAME%"
@@ -26,7 +27,6 @@ if [%ZUPER%] == [1] (
         @REM     %EXE% -ExecutionPolicy Bypass -File %BROTHERPS%
         @REM )
 
-        call C:\Scripts\wBase\BaseGit.bat
         FOR %%x IN (%BASE%\b_*.bat) DO (
             echo "%%x"
             call "%%x"
